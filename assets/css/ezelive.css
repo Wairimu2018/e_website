@@ -246,16 +246,16 @@ header .navbar {
 	padding: 20px 0px;
 }
 .background-header .navbar {
-	padding: 10px 0px;
+	padding: 5px 0px;
 }
 .background-header {
 	top: 0;
 	position: fixed;
 	background-color: #fff!important;
-	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand {
-	height: 10px;
+	height: 5px;
 	width: 5px;
 }
 .background-header .navbar-nav a.nav-link {
@@ -270,9 +270,19 @@ header .navbar {
 }
 .navbar .navbar-brand {
 	float: 	left;
-	margin-top: 12px;
+	display: block;
+	margin-top: 15px;
 	outline: none;
 }
+
+/* .logo img {
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 10px;
+
+} */
+
+
 .navbar .navbar-brand h2 {
 	color: #fff;
 	text-transform: uppercase;
@@ -285,7 +295,7 @@ header .navbar {
 }
 .navbar .navbar-brand h2 em {
 	font-style: normal;
-	font-size: 16px;
+	font-size: 10px;
 }
 #navbarResponsive {
 	z-index: 999;
@@ -903,7 +913,7 @@ footer h4 {
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 0.25px;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 footer p {
 	color: #fff;
